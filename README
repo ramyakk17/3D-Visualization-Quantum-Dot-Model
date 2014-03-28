@@ -1,0 +1,40 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ReadMe							    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Instructions:
+
+This project is made using QT.The zip folder consists of the project file.
+QMake to make the makefile.
+
+IMPORTANT NOTE: makefile created by qmake in my system had following issue  
+and bin/rcc.exe had to be replaced by rcc.exe to make it work as per
+http://ellacharmed.wordpress.com/2012/11/06/google-really-is-your-friend/
+
+Once makefile is created type command make, go the the release folder and
+run QDModel.exe
+
+The project visualizes the probability of electron in the shown quantum dot
+model.
+The input files are in binary. I have used marching cubes
+algorithm to display the probability of the given state. QTSpinbox can be 
+used to visualize 6 different states.
+Click Play to let the visualization show different states.
+Probability can be changed using the scroll bar. Visualization is done
+from the max probability value to the selected probability value
+
+Click Transparent to display it transparent,implemented in gradation.
+The Cube and Pyramid can be displayed or removed as per user choice.
+
+Slicing option is added to compare the states per slice.
+
+Any visualization can now be saved as a set of images into a pdf file
+
+Click Reset to reset the display to initial view.
+ 
+___________________________________________________________________________
+___________________________________________________________________________
+References: 
+	www.angelfire.com/linux/myp, Michael Y. Polyakov for Marching cubes
+	algorithm
+___________________________________________________________________________
